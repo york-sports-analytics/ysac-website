@@ -1,8 +1,3 @@
-// Primary color configuration - CHANGE to darker purple (#7C3AED) with old red (#EF4444) commented for easy switching
-// Uncomment the red color and comment purple to revert to the previous color scheme
-const PRIMARY_COLOR = "#7C3AED"; // Darker purple (current)
-// const PRIMARY_COLOR = "#EF4444" // Red (previous)
-
 export const SOCIAL_LINKS = {
   discord: "https://discord.gg/JnnmcpB3Ua",
   linkedin: "https://www.linkedin.com/company/sports-analytics-club-at-yorku",
@@ -24,7 +19,6 @@ export const siteConfig = {
     logoUrl:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/YSAC-UbuoH8fvb9e2dcRvr8411gyHEV2ZT7.jpg",
     linktree: SOCIAL_LINKS.linktree,
-    primaryColor: PRIMARY_COLOR,
   },
 
   clubInfo: {

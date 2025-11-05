@@ -44,7 +44,7 @@ export function Navbar() {
                 >
                   {item}
                 </button>
-              )
+              ),
             )}
           </div>
 
@@ -98,7 +98,7 @@ export function Navbar() {
                   >
                     {item}
                   </button>
-                )
+                ),
               )}
               <a
                 href={CONTACT_FORM_URL}
