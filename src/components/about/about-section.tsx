@@ -17,7 +17,7 @@ export function AboutSection() {
           {siteConfig.clubInfo.sections.map((section, index) => (
             <div
               key={index}
-              className="p-5 sm:p-8 rounded-lg bg-[#1a1a1a] border border-gray-800 hover:border-purple-600 hover:shadow-lg hover:shadow-purple-600/10 transition-all"
+              className="p-5 sm:p-8 rounded-lg bg-[#1a1a1a] border border-gray-800 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-600/20 transition-all duration-300 hover-lift card-glow"
             >
               <h3 className="text-base sm:text-lg md:text-2xl font-bold text-white mb-3 sm:mb-4">
                 {section.title}

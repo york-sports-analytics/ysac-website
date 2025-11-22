@@ -14,7 +14,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-[#1a1a1a] border-b border-gray-800 z-50">
+    <nav className="fixed top-0 w-full bg-[#1a1a1a]/95 backdrop-blur-smooth border-b border-gray-800 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
@@ -40,7 +40,7 @@ export function Navbar() {
                   onClick={() =>
                     scrollToSection(item.toLowerCase().replace(" ", "-"))
                   }
-                  className="text-gray-300 hover:text-white transition-colors text-sm font-medium"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm font-medium nav-underline"
                 >
                   {item}
                 </button>
@@ -54,7 +54,7 @@ export function Navbar() {
               href={CONTACT_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium"
+              className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-all duration-300 text-sm font-medium btn-interactive"
             >
               Contact Us
             </a>
@@ -64,7 +64,7 @@ export function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-300 hover:text-white"
+              className="text-gray-300 hover:text-white transition-colors duration-300"
             >
               <svg
                 className="h-6 w-6"
@@ -85,7 +85,7 @@ export function Navbar() {
 
         {/* Mobile menu */}
         {isOpen && (
-          <div className="md:hidden pb-4 border-t border-gray-800">
+          <div className="md:hidden pb-4 border-t border-gray-800 animate-fade-in-up">
             <div className="flex flex-col gap-2 pt-4">
               {["Home", "About", "Events", "Projects", "Team", "Contact"].map(
                 (item) => (
@@ -94,7 +94,7 @@ export function Navbar() {
                     onClick={() =>
                       scrollToSection(item.toLowerCase().replace(" ", "-"))
                     }
-                    className="text-gray-300 hover:text-white transition-colors text-sm font-medium py-2 px-4 hover:bg-gray-900 rounded"
+                    className="text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium py-2 px-4 hover:bg-gray-900 rounded"
                   >
                     {item}
                   </button>
@@ -104,7 +104,7 @@ export function Navbar() {
                 href={CONTACT_FORM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium text-center"
+                className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-all duration-300 text-sm font-medium text-center"
               >
                 Contact Us
               </a>

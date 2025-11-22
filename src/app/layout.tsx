@@ -5,24 +5,7 @@ import "./globals.css";
 
 import {
   Plus_Jakarta_Sans,
-  Plus_Jakarta_Sans as V0_Font_Plus_Jakarta_Sans,
-  IBM_Plex_Mono as V0_Font_IBM_Plex_Mono,
-  Lora as V0_Font_Lora,
 } from "next/font/google";
-
-// Initialize fonts
-const _plusJakartaSans = V0_Font_Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
-});
-const _ibmPlexMono = V0_Font_IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-});
-const _lora = V0_Font_Lora({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],

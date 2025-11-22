@@ -5,8 +5,8 @@ export const SOCIAL_LINKS = {
   instagram: "https://instagram.com/yorkusac",
 };
 
-// Google Form link - CHANGE: Add your Google Form URL here
-export const CONTACT_FORM_URL = "https://forms.gle/your-google-form-id"; // Replace with your Google Form URL
+// Google Form link
+export const CONTACT_FORM_URL = "https://forms.gle/XDmxrdPKKPYiuF2d8";
 
 // Centralized configuration and content for the website
 export const siteConfig = {
@@ -45,7 +45,7 @@ export const siteConfig = {
     {
       id: 1,
       title: "Introduction to Sports Analytics",
-      date: "November 15, 2025",
+      date: "February 12, 2026",
       time: "18:00 - 19:30",
       description:
         "Join us for an introductory session on sports analytics. We'll cover the fundamentals of data analysis in sports, common metrics, and real-world applications.",
@@ -58,7 +58,7 @@ export const siteConfig = {
     {
       id: 2,
       title: "Tech in Sport: MLSE Digital Labs Panel",
-      date: "November 24, 2025",
+      date: "2026 (TBD)",
       time: "TBA",
       description:
         "Join us for a panel featuring members from MLSE (Maple Leafs Sports & Entertainment) Digital Labs. Topics include ML/AI, data science, product management, and business analytics.",

@@ -10,7 +10,7 @@ export function TeamSection() {
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-center">
           Meet The Team
         </h2>
-        <p className="text-gray-400 text-center mb-12">
+        <p className="text-gray-400 text-center mb-12 text-base sm:text-lg">
           Our dedicated executive team leading YSAC
         </p>
 

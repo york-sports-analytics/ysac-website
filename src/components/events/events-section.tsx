@@ -10,7 +10,7 @@ export function EventsSection() {
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-center">
           Upcoming Events
         </h2>
-        <p className="text-gray-400 text-center mb-16">
+        <p className="text-gray-400 text-center mb-16 text-base sm:text-lg">
           Join us for workshops, discussions, and networking opportunities
         </p>
 

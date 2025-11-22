@@ -18,7 +18,7 @@ export function HeroSection() {
               alt="YSAC Logo"
               width={256}
               height={256}
-              className="w-64 h-64 rounded-lg shadow-2xl"
+              className="w-64 h-64 rounded-lg shadow-2xl animate-float"
             />
           </div>
 
@@ -28,7 +28,7 @@ export function HeroSection() {
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 text-balance">
                 {siteConfig.club.name}
               </h1>
-              <p className="text-2xl text-red-500 font-semibold mb-4">
+              <p className="text-2xl font-semibold mb-4 gradient-text">
                 {siteConfig.club.tagline}
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
@@ -42,7 +42,7 @@ export function HeroSection() {
                 href={siteConfig.club.linktree}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 sm:px-8 py-2 sm:py-3 bg-purple-600 text-white text-sm sm:text-base rounded-lg hover:bg-purple-700 transition-colors font-semibold text-center"
+                className="px-6 sm:px-8 py-2 sm:py-3 bg-purple-600 text-white text-sm sm:text-base rounded-lg hover:bg-purple-700 transition-all duration-300 font-semibold text-center btn-interactive"
               >
                 Join Our Community
               </a>
@@ -50,7 +50,7 @@ export function HeroSection() {
                 href={CONTACT_FORM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-purple-600 text-purple-500 text-sm sm:text-base rounded-lg hover:bg-purple-600 hover:text-white transition-colors font-semibold text-center"
+                className="px-6 sm:px-8 py-2 sm:py-3 border-2 border-purple-600 text-purple-500 text-sm sm:text-base rounded-lg hover:bg-purple-600 hover:text-white transition-all duration-300 font-semibold text-center hover-scale"
               >
                 Contact Us
               </a>
